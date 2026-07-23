@@ -1,0 +1,14 @@
+:root {
+  --bg: #fafafa;
+  --panel: #e0e0e0;
+  --border: #d4d4d4;
+
+  --primary: rgb(150, 150, 250);
+  --primary-hover: rgb(200, 200, 250);
+
+  --text: #2c2c2c;
+  --muted: #8a8a8a;
+
+  --radius: 12px;
+  --blur: blur(10px);
+}

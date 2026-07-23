@@ -1,0 +1,44 @@
+.menu {
+  display: flow-root;
+  float: left;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 4px;
+  min-width: 180px;
+}
+
+.menu-item {
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.menu-item:hover {
+  background: var(--primary-hover);
+}
+
+.menu-item.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.menu-separator {
+  height: 1px;
+  background: var(--border);
+  margin: 4px 0;
+}
+
+.menu-sub {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  display: none;
+}
+
+.menu-item:hover .menu-sub {
+  display: block;
+}

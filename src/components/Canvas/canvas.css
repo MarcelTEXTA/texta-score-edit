@@ -1,0 +1,38 @@
+.canvas-area {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* canvas */
+.canvas-wrapper {
+  flex: 1;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f5f5f5;
+}
+
+/* tabs */
+.tabs {
+  height: 120px;
+  background: var(--panel);
+  border-top: 1px solid var(--border);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+}
